@@ -1,0 +1,32 @@
+{
+  "name": "@vuels/vcb",
+  "version": "0.0.1",
+  "description": "A Generator and Builder for Standalone Vue Components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vuels/vue-component-builder.git"
+  },
+  "keywords": [
+    "Vue",
+    "Vuels",
+    "VCB"
+  ],
+  "author": "Alan J. Fitzpatrick",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Vuels/vue-component-builder/issues"
+  },
+  "homepage": "https://github.com/Vuels/vue-component-builder#readme",
+  "dependencies": {
+    "chalk-stencil": "^1.0.0",
+    "inquirer": "^5.1.0",
+    "np": "^2.20.1"
+  },
+  "bin": {
+    "vcb": "./index.js"
+  }
+}
