@@ -2,10 +2,6 @@
   "name": "@vuels/vcb",
   "version": "0.0.1",
   "description": "A Generator and Builder for Standalone Vue Components",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Vuels/vue-component-builder.git"
@@ -22,11 +18,12 @@
   },
   "homepage": "https://github.com/Vuels/vue-component-builder#readme",
   "dependencies": {
-    "chalk-stencil": "^1.0.0",
+    "chalk": "^2.3.1",
+    "commander": "^2.14.1",
     "inquirer": "^5.1.0",
     "np": "^2.20.1"
   },
   "bin": {
-    "vcb": "./index.js"
+    "vcb": "./bin/vue-component-builder.js"
   }
 }
