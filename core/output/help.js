@@ -17,7 +17,8 @@ module.exports = () => chalk.grey(`
 
     ${chalk.cyan.bold('Commands')}
     generate <app-name>     generate a component build structure
-    test                    run tests on a generated app
+    test                    run tests on a generated component
+    lint                    run linting on a generated component
     run                     build and run a component in a standalone environment
 
     For more information go to ${chalk.yellow.underline('https://github.com/vuejs/')}

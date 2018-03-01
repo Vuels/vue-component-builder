@@ -1,12 +1,12 @@
-module.exports = projectName => `
+module.exports = (projectName, projectFolderName) => `
 import { shallow } from '@vue/test-utils'
 import test from 'tape'
-import ${projectName} from '../../${projectName}.vue'
+import ${projectFolderName} from '../../${projectFolderName}.vue'
 
-test('${projectName}.vue', t => {
+test('${projectFolderName}.vue', t => {
     t.plan(1)
 
-    const wrapper = shallow(${projectName}, {
+    const wrapper = shallow(${projectFolderName}, {
         propsData: {}
     })
 

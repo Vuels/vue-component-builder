@@ -21,7 +21,9 @@
     "chalk": "^2.3.1",
     "commander": "^2.14.1",
     "inquirer": "^5.1.0",
-    "np": "^2.20.1"
+    "np": "^2.20.1",
+    "webpack": "^4.0.1",
+    "webpack-dev-server": "^3.1.0"
   },
   "bin": {
     "vcb": "./bin/vue-component-builder.js"

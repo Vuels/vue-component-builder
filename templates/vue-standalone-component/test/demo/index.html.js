@@ -1,10 +1,10 @@
-module.exports = projectName => `
+module.exports = (projectName, projectFolderName) => `
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Component ${projectName} Testing Page</title>
+    <title>Component ${projectFolderName} Testing Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>

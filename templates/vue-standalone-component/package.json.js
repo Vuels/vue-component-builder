@@ -1,11 +1,11 @@
 const pkg = require('../../package.json')
 
-module.exports = projectName => `
+module.exports = (projectName, projectFolderName) => `
 {
     "name": "${projectName}",
     "version": "0.0.1",
-    "description": "Component ${projectName}",
-    "main": "${projectName}.vue",
+    "description": "Component ${projectFolderName}",
+    "main": "${projectFolderName}.vue",
     "scripts": {
         "dev": "",
         "unit": ""
@@ -15,7 +15,7 @@ module.exports = projectName => `
         "email": "",
         "url": ""
     },
-    "dependencies": {
+    "devDependencies": {
       "@vuels/vcb": "^${pkg.version}"
     }
 }

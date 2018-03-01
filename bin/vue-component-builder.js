@@ -43,6 +43,14 @@ commander
         console.log('Run Vuel Component in a Dev Environment')
     })
 
+commander
+    .command('lint')
+    .alias('l')
+    .description('Run Linting over a Vuel Module')
+    .action(() => {
+        console.log('Run Linting over a Vuel Module')
+    })
+
 if(!process.argv.slice(2).length) {
     console.log(require('../core/output/help')())
     process.exit()
